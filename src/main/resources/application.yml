@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-boot-redis
+  redis:
+    #集群配置
+    config:
+      clusterNodes:
+         - 11.70.241.134:8001
+         - 11.70.241.135:8002
+         - 11.70.241.136:8003
+         - 11.70.241.137:8004
+         - 11.70.241.138:8005
+         - 11.70.241.144:8006
+      connectionTimeout: 60000
+      soTimeout: 3000
+      maxAttempts: 1000
+
+
+
